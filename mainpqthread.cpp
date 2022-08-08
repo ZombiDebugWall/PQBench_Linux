@@ -17,7 +17,7 @@ void _list_help_func()
 	std::cout << "\t\t\t\t\tNOTE: This parameter might reduce performance (Use -t for proper performance testing)\n" << std::endl;
 	std::cout << "-oc,	--overclocking\t\t\tThis parameter measures calculations per second in realtime, made for realtime overclocking" << std::endl;
 	std::cout << "\t\t\t\t\tNOTE: This parameter will reduce performance due to realtime measurements (Again, use -t for proper performance testing)\n" << std::endl;
-	std::cout << "-h	--help\t\t\t\tList this help" << std::endl;
+	std::cout << "-h	--help\t\t\t\tprint this message" << std::endl;
 
 }
 
