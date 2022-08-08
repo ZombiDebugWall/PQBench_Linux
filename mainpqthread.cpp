@@ -6,10 +6,11 @@
 #include "mainpqthread.h"
 
 //Date of creation: 02.08.2022
-
+//Author: ZombiDebugWall
 
 void _list_help_func()
 {
+	std::cout << "PQBench 1.0 by ZombiDebugWall" << std::endl;
 	std::cout << "Usage: pqbench [parameter]" << std::endl;
 	std::cout << "-t, 	--time\t\t\t\tMeasures time and calculations per ms [DEFAULT]\n" << std::endl;
 	std::cout << "-cs, 	--check-status\t\t\tShows if test is running properly or freezing" << std::endl;
@@ -59,7 +60,7 @@ void calcpq_bench()
 {
 	double p = 1276.5635;
 	double q = 867.3649;
-	long double amount_of_runs= 950000000;
+	long double amount_of_runs= 1000000000;
 	long double i = 0;
 	
 	double quotient;
