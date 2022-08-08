@@ -49,7 +49,7 @@ The --check-status parameter can be used to verfiy the benchmark is running and 
 ```
 -oc,	--overclocking
 ```
-This parameter can be used for realtime overclocking. It displays calculations per second in realtime and these will change during changing any CPU properties (e.g. CPU frequency). **NOTE:** Due to extra threads running in the background, I recommand to use -t for resonable results (after playing around with your CPU settings).
+This parameter can be used for realtime overclocking. It displays calculations per second in realtime and these will change during changing any CPU properties (e.g. CPU frequency). **NOTE:** Due to extra threads running in the background, I recommand to use -t for resonable results (after playing around with CPU settings).
 ```
 -h	--help
 ```
