@@ -54,3 +54,17 @@ This parameter can be used for realtime overclocking. It displays calculations p
 -h	--help
 ```
 It's the --help parameter, what do you expect.
+
+```
+PQBench 1.0 by ZombiDebugWall
+Usage: pqbench [parameter]
+-t, 	--time				Measures time and calculations per ms [DEFAULT]
+
+-cs, 	--check-status			Shows if test is running properly or freezing
+					NOTE: This parameter might reduce performance (Use -t for proper performance testing)
+
+-oc,	--overclocking			This parameter measures calculations per second in realtime, made for realtime overclocking
+					NOTE: This parameter will reduce performance due to realtime measurements (Again, use -t for proper performance testing)
+
+-h	--help				print this message
+```
