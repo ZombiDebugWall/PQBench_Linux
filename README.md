@@ -44,7 +44,7 @@ The results are displayed in milliseconds, seconds and calculations per millisec
 ```
 -cs, 	--check-status
 ```
-The --check-status parameter can be used to verfiy the benchmark is running and not freezing.
+The --check-status parameter can be used to verifiy the benchmark is running and not freezing.
 **NOTE:** Due to extra threads running in the background, I recommand to use -t for proper benching.
 ```
 -oc,	--overclocking
