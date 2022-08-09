@@ -37,7 +37,7 @@ PQBench provides following arguments:
 ### Explaination
 
 ```
--t, 	--time (Default active parameter, when run without any arguments)
+-t, 	--time (Default active parameter)
 ```
 Measures the time that has been taken to to make 5\*10^10 calculations.
 The results are displayed in milliseconds, seconds and calculations per millisecond. 
