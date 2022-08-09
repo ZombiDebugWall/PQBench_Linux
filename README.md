@@ -5,7 +5,7 @@ Simple benchmark which benches your single core CPU performance using the pq-for
 ## Compilation and installation
 I am not responsible for any hardware damage, you run this programm on your own risk!
 
-PQBench can be compiled with level 3 optimizition using the g++ compiler on linux:
+PQBench can be compiled with level 3 optimization using the g++ compiler on linux:
 
 ```
 $ g++ -O3 mainpqthread.cpp -o pqbench
