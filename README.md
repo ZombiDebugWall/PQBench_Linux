@@ -5,10 +5,10 @@ Simple benchmark which benches your single core CPU performance using the pq-for
 ## Compilation and installation
 I am not responsible for any hardware damage, you run this programm on your own risk!
 
-PQBench can be compiled using the g++ compiler on linux:
+PQBench can be compiled with level 3 optimazation using the g++ compiler on linux:
 
 ```
-$ g++ mainpqthread.cpp -o pqbench
+$ g++ -O3 mainpqthread.cpp -o pqbench
 ```
 
 And installed by moving the executable into the bin folder:
@@ -39,7 +39,7 @@ PQBench provides following arguments:
 ```
 -t, 	--time (Default active parameter, when run without any arguments)
 ```
-Measures the time that has been taken to to make 1\*10^9 calculations.
+Measures the time that has been taken to to make 5\*10^10 calculations.
 The results are displayed in milliseconds, seconds and calculations per millisecond. 
 ```
 -cs, 	--check-status
