@@ -60,7 +60,7 @@ void calcpq_bench()
 {
 	double p = 1276.5635;
 	double q = 867.3649;
-	long double amount_of_runs= 1000000000;
+	long double amount_of_runs= 50000000000;
 	long double i = 0;
 	
 	double quotient;
