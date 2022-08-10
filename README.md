@@ -1,6 +1,6 @@
 # PQBench_Linux
 
-Simple benchmark which benches your single core CPU performance using the pq-formula.
+Simple benchmark which benches your single-core CPU performance using the pq-formula.
 
 ## Compilation and installation
 I am not responsible for any hardware damage, you run this programm on your own risk!
