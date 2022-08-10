@@ -21,9 +21,9 @@ Or alternatively just run directly in the compilation folder:
 ```
 $ ./pqbench
 ```
-## Arguments
+## Features
 
-PQBench provides following arguments:
+PQBench provides following parameters:
 ```
 -t, 	--time
 
