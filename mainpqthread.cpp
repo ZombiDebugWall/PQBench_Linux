@@ -58,15 +58,15 @@ void progress_of_run()
 
 void calcpq_bench()
 {
-	double p = 1276.5635;
-	double q = 867.3649;
+	long double p = 1276.5635;
+	long double q = 867.3649;
 	long double amount_of_runs= 50000000000;
 	long double i = 0;
 	
-	double quotient;
-	double sqroot_of;
-	double zero_point_left;
-	double zero_point_right;
+	long double quotient;
+	long double sqroot_of;
+	long double zero_point_left;
+	long double zero_point_right;
 
 	std::cout << "Benchmark is running..." << std::endl;
 
@@ -102,6 +102,8 @@ void calcpq_bench()
 	std::cout << std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count() << "ms" << std::endl;
 	std::cout << std::chrono::duration_cast<std::chrono::seconds>(end - begin).count() << "s" << std::endl;
 	std::cout << double(amount_of_runs / std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count()) << " calculations per millisecond" << std::endl;
+	std::cout << "Point left: " << zero_point_left << std::endl;
+	std::cout << "Point right: " << zero_point_right << std::endl;
 	//fprintf(stderr, "%f", double(amount_of_runs / std::chrono::duration_cast<std::chrono::seconds>(end - begin).count()));
 
 
@@ -113,8 +115,8 @@ void calcpq_bench()
 
 void calcpq_bench_realtime_overclocking()
 {
-	double p = 1276.5635;
-	double q = 867.3649;
+	long double p = 1276.5635;
+	long double q = 867.3649;
 	
 	
 	long double i = 0;
@@ -123,10 +125,10 @@ void calcpq_bench_realtime_overclocking()
 	PQGlobVar::iptr = &i;
 	PQGlobVar::amount_of_runsptr = &amount_of_runs;
 
-	double quotient;
-	double sqroot_of;
-	double zero_point_left;
-	double zero_point_right;
+	long double quotient;
+	long double sqroot_of;
+	long double zero_point_left;
+	long double zero_point_right;
 
 
 	long double current_speed_begin = 0;
@@ -163,7 +165,9 @@ void calcpq_bench_realtime_overclocking()
 				current_speed = current_speed_stop - current_speed_begin;
 				fprintf(stderr,"\033[2J");
 				fprintf(stderr,"\033[H");
-				fprintf(stderr, "Current calculations per seconds: %.0Lf \n", current_speed);
+				fprintf(stderr, "Current calculations per second: %.0Lf \n", current_speed);
+				fprintf(stderr, "Current value (left): %.10Lf \n", zero_point_left);
+				fprintf(stderr, "Current value (right): %.10Lf \n", zero_point_right);
 				measure_begin = std::chrono::high_resolution_clock::now();
 				current_speed_begin = *PQGlobVar::iptr;
 			}
