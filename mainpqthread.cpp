@@ -102,8 +102,8 @@ void calcpq_bench()
 	std::cout << std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count() << "ms" << std::endl;
 	std::cout << std::chrono::duration_cast<std::chrono::seconds>(end - begin).count() << "s" << std::endl;
 	std::cout << double(amount_of_runs / std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count()) << " calculations per millisecond" << std::endl;
-	std::cout << "Point left: " << zero_point_left << std::endl;
-	std::cout << "Point right: " << zero_point_right << std::endl;
+	std::cout << "Last point left: " << zero_point_left << std::endl;
+	std::cout << "Last point right: " << zero_point_right << std::endl;
 	//fprintf(stderr, "%f", double(amount_of_runs / std::chrono::duration_cast<std::chrono::seconds>(end - begin).count()));
 
 
