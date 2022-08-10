@@ -8,7 +8,7 @@ I am not responsible for any hardware damage, you run this programm on your own 
 PQBench can be compiled with level 3 optimization using the g++ compiler on linux:
 
 ```
-$ g++ -O3 mainpqthread.cpp -o pqbench
+$ g++ -s -DNDEBUG -O3 mainpqthread.cpp -o pqbench
 ```
 
 And installed by moving the executable into the bin folder:
