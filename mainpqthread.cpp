@@ -1,7 +1,3 @@
-//This source code falls under the MIT License.
-
-//Copyright (c) 2022 ZombiBananaDev
-
 #include <iostream>
 #include <cmath>
 #include <chrono>
