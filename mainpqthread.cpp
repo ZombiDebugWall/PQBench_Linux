@@ -10,7 +10,7 @@
 
 void _list_help_func()
 {
-	std::cout << "PQBench 1.0 by ZombiDebugWall" << std::endl;
+	std::cout << "PQBench (testphase) by ZombiDebugWall" << std::endl;
 	std::cout << "Usage: pqbench [parameter]" << std::endl;
 	std::cout << "-t, 	--time\t\t\t\tMeasures time and calculations per ms [DEFAULT]\n" << std::endl;
 	std::cout << "-cs, 	--check-status\t\t\tShows if test is running properly or freezing" << std::endl;
