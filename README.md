@@ -56,7 +56,7 @@ This parameter can be used for realtime overclocking. It displays calculations p
 It's the --help parameter, what do you expect.
 
 ```
-PQBench 1.0 by ZombiDebugWall
+PQBench (testphase) by ZombiDebugWall
 Usage: pqbench [parameter]
 -t, 	--time				Measures time and calculations per ms [DEFAULT]
 
